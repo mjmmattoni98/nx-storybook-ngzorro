@@ -5,7 +5,8 @@
     "devkit",
     "myorg",
     "ngzorro",
-    "nrwl"
+    "nrwl",
+    "twotone"
   ],
   "workbench.colorCustomizations": {
     "activityBar.activeBackground": "#ab307e",
