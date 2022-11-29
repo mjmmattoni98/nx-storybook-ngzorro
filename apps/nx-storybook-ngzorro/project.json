@@ -104,7 +104,8 @@
         "port": 4400,
         "configDir": "apps/nx-storybook-ngzorro/.storybook",
         "browserTarget": "nx-storybook-ngzorro:build",
-        "compodoc": false
+        "compodoc": true,
+        "compodocArgs": ["-e", "json", "-d", "apps/nx-storybook-ngzorro"]
       },
       "configurations": {
         "ci": {
@@ -119,7 +120,8 @@
         "outputDir": "dist/storybook/nx-storybook-ngzorro",
         "configDir": "apps/nx-storybook-ngzorro/.storybook",
         "browserTarget": "nx-storybook-ngzorro:build",
-        "compodoc": false
+        "compodoc": true,
+        "compodocArgs": ["-e", "json", "-d", "apps/nx-storybook-ngzorro"]
       },
       "configurations": {
         "ci": {
