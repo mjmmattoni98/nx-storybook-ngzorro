@@ -7,7 +7,9 @@
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/apps/nx-storybook-ngzorro",
         "index": "apps/nx-storybook-ngzorro/src/index.html",
@@ -92,7 +94,9 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "outputs": [
+        "{workspaceRoot}/coverage/{projectRoot}"
+      ],
       "options": {
         "jestConfig": "apps/nx-storybook-ngzorro/jest.config.ts",
         "passWithNoTests": true
@@ -105,7 +109,12 @@
         "configDir": "apps/nx-storybook-ngzorro/.storybook",
         "browserTarget": "nx-storybook-ngzorro:build",
         "compodoc": true,
-        "compodocArgs": ["-e", "json", "-d", "apps/nx-storybook-ngzorro"]
+        "compodocArgs": [
+          "-e",
+          "json",
+          "-d",
+          "apps/nx-storybook-ngzorro"
+        ]
       },
       "configurations": {
         "ci": {
@@ -115,13 +124,20 @@
     },
     "build-storybook": {
       "executor": "@storybook/angular:build-storybook",
-      "outputs": ["{options.outputDir}"],
+      "outputs": [
+        "{options.outputDir}"
+      ],
       "options": {
         "outputDir": "dist/storybook/nx-storybook-ngzorro",
         "configDir": "apps/nx-storybook-ngzorro/.storybook",
         "browserTarget": "nx-storybook-ngzorro:build",
         "compodoc": true,
-        "compodocArgs": ["-e", "json", "-d", "apps/nx-storybook-ngzorro"]
+        "compodocArgs": [
+          "-e",
+          "json",
+          "-d",
+          "apps/nx-storybook-ngzorro"
+        ]
       },
       "configurations": {
         "ci": {
@@ -133,6 +149,15 @@
       "executor": "nx:run-commands",
       "options": {
         "command": "test-storybook -c apps/nx-storybook-ngzorro/.storybook --url=http://localhost:4400"
+      }
+    },
+    "component-test": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/nx-storybook-ngzorro/cypress.config.ts",
+        "testingType": "component",
+        "skipServe": true,
+        "devServerTarget": "nx-storybook-ngzorro:build"
       }
     }
   },

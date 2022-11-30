@@ -774,6 +774,86 @@
             "stylesData": ""
         },
         {
+            "name": "StepperComponent",
+            "id": "component-StepperComponent-4bdc13a04d14b48a46364d2ca47c665fa239e76a7e471ff5f06a08c2be9d505092c676480e1046dcb2f54f301e7f4366d0a7d72d5e11c3375cd84bd0c6d49d9d",
+            "file": "apps/nx-storybook-ngzorro/src/app/pages/stepper/stepper.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-stepper",
+            "styleUrls": [
+                "./stepper.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./stepper.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [
+                {
+                    "name": "count",
+                    "defaultValue": "0",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 10,
+                    "type": "number",
+                    "decorators": []
+                }
+            ],
+            "outputsClass": [
+                {
+                    "name": "changeEvent",
+                    "defaultValue": "new EventEmitter()",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 11,
+                    "type": "EventEmitter"
+                }
+            ],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "decrement",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 18,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                },
+                {
+                    "name": "increment",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 13,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, EventEmitter, Input, Output } from '@angular/core';\n\n@Component({\n  // eslint-disable-next-line @angular-eslint/component-selector\n  selector: 'app-stepper',\n  templateUrl: './stepper.component.html',\n  styleUrls: ['./stepper.component.scss'],\n})\nexport class StepperComponent {\n  @Input() count = 0;\n  @Output() changeEvent = new EventEmitter();\n\n  increment(): void {\n    this.count++;\n    this.changeEvent.emit(this.count);\n  }\n\n  decrement(): void {\n    this.count--;\n    this.changeEvent.emit(this.count);\n  }\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": "",
+                    "styleUrl": "./stepper.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "templateData": "<div>\n  <button id=\"decrement\" data-cy=\"decrement\" (click)=\"decrement()\">-</button>\n  <span id=\"counter\" data-cy=\"counter\">{{ count }}</span>\n  <button id=\"increment\" data-cy=\"increment\" (click)=\"increment()\">+</button>\n</div>"
+        },
+        {
             "name": "WelcomeComponent",
             "id": "component-WelcomeComponent-986bde68fb68d3a023aeb2347f65cb356d1282cf30ffc563495f38229d29daf694d1701306cfaa469fe778d0d5b0052ae3fd877bbece5a7b55ca371b2402f549",
             "file": "apps/nx-storybook-ngzorro/src/app/pages/welcome/welcome.component.ts",
@@ -849,6 +929,16 @@
     "miscellaneous": {
         "variables": [
             {
+                "name": "ChangeEvent",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "apps/nx-storybook-ngzorro/src/app/pages/stepper/Stepper.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
                 "name": "config",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
@@ -857,6 +947,46 @@
                 "deprecationMessage": "",
                 "type": "StorybookConfig",
                 "defaultValue": "{\r\n  ...rootMain,\r\n\r\n  core: { ...rootMain.core, builder: 'webpack5' },\r\n\r\n  stories: [\r\n    ...rootMain.stories,\r\n    '../src/app/**/*.stories.mdx',\r\n    '../src/app/**/*.stories.@(js|jsx|ts|tsx)',\r\n  ],\r\n  addons: [...(rootMain.addons || [])],\r\n  features: {\r\n    ...rootMain.features,\r\n    interactionsDebugger: true,\r\n  },\r\n  webpackFinal: async (config, { configType }: Options) => {\r\n    // apply any global webpack configs that might have been specified in .storybook/main.ts\r\n    if (rootMain.webpackFinal) {\r\n      config = await rootMain.webpackFinal(config, { configType } as Options);\r\n    }\r\n\r\n    // add your own webpack tweaks if needed\r\n\r\n    return config;\r\n  },\r\n}"
+            },
+            {
+                "name": "Decrement",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "apps/nx-storybook-ngzorro/src/app/pages/stepper/Stepper.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "DefaultValue",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "apps/nx-storybook-ngzorro/src/app/pages/stepper/Stepper.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "Increment",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "apps/nx-storybook-ngzorro/src/app/pages/stepper/Stepper.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "InitialValue",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "apps/nx-storybook-ngzorro/src/app/pages/stepper/Stepper.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
             },
             {
                 "name": "Large",
@@ -882,7 +1012,7 @@
                 "name": "LoggedIn",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "apps/nx-storybook-ngzorro/src/stories/Page.stories.ts",
+                "file": "apps/nx-storybook-ngzorro/src/stories/Header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -892,16 +1022,6 @@
                 "name": "LoggedIn",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "apps/nx-storybook-ngzorro/src/stories/Header.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "",
-                "defaultValue": "Template.bind({})"
-            },
-            {
-                "name": "LoggedOut",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "apps/nx-storybook-ngzorro/src/stories/Page.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -913,6 +1033,16 @@
                 "ctype": "miscellaneous",
                 "subtype": "variable",
                 "file": "apps/nx-storybook-ngzorro/src/stories/Header.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "LoggedOut",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "apps/nx-storybook-ngzorro/src/stories/Page.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -1032,6 +1162,16 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
+                "file": "apps/nx-storybook-ngzorro/src/stories/Header.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<Header>",
+                "defaultValue": "(args: Header) => ({\r\n  props: args,\r\n})"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
                 "file": "apps/nx-storybook-ngzorro/src/stories/Page.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -1042,11 +1182,11 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "apps/nx-storybook-ngzorro/src/stories/Header.stories.ts",
+                "file": "apps/nx-storybook-ngzorro/src/app/pages/stepper/Stepper.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Story<Header>",
-                "defaultValue": "(args: Header) => ({\r\n  props: args,\r\n})"
+                "type": "Story<StepperComponent>",
+                "defaultValue": "(args: StepperComponent) => ({\r\n  props: args,\r\n})"
             },
             {
                 "name": "Template",
@@ -1063,6 +1203,68 @@
         "typealiases": [],
         "enumerations": [],
         "groupedVariables": {
+            "apps/nx-storybook-ngzorro/src/app/pages/stepper/Stepper.stories.ts": [
+                {
+                    "name": "ChangeEvent",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "apps/nx-storybook-ngzorro/src/app/pages/stepper/Stepper.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Decrement",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "apps/nx-storybook-ngzorro/src/app/pages/stepper/Stepper.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "DefaultValue",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "apps/nx-storybook-ngzorro/src/app/pages/stepper/Stepper.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Increment",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "apps/nx-storybook-ngzorro/src/app/pages/stepper/Stepper.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "InitialValue",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "apps/nx-storybook-ngzorro/src/app/pages/stepper/Stepper.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "apps/nx-storybook-ngzorro/src/app/pages/stepper/Stepper.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<StepperComponent>",
+                    "defaultValue": "(args: StepperComponent) => ({\r\n  props: args,\r\n})"
+                }
+            ],
             "apps/nx-storybook-ngzorro/.storybook/main.ts": [
                 {
                     "name": "config",
@@ -1219,38 +1421,6 @@
                     "defaultValue": "(args: ButtonSubmitComponent) => ({\r\n  props: args,\r\n  moduleMetadata: {\r\n    declarations: [ButtonSubmitComponent],\r\n    imports: [NzButtonModule],\r\n  },\r\n})"
                 }
             ],
-            "apps/nx-storybook-ngzorro/src/stories/Page.stories.ts": [
-                {
-                    "name": "LoggedIn",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "apps/nx-storybook-ngzorro/src/stories/Page.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                },
-                {
-                    "name": "LoggedOut",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "apps/nx-storybook-ngzorro/src/stories/Page.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                },
-                {
-                    "name": "Template",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "apps/nx-storybook-ngzorro/src/stories/Page.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story<Page>",
-                    "defaultValue": "(args: Page) => ({\r\n  props: args,\r\n})"
-                }
-            ],
             "apps/nx-storybook-ngzorro/src/stories/Header.stories.ts": [
                 {
                     "name": "LoggedIn",
@@ -1281,6 +1451,38 @@
                     "deprecationMessage": "",
                     "type": "Story<Header>",
                     "defaultValue": "(args: Header) => ({\r\n  props: args,\r\n})"
+                }
+            ],
+            "apps/nx-storybook-ngzorro/src/stories/Page.stories.ts": [
+                {
+                    "name": "LoggedIn",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "apps/nx-storybook-ngzorro/src/stories/Page.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "LoggedOut",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "apps/nx-storybook-ngzorro/src/stories/Page.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "apps/nx-storybook-ngzorro/src/stories/Page.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<Page>",
+                    "defaultValue": "(args: Page) => ({\r\n  props: args,\r\n})"
                 }
             ]
         },
@@ -1427,6 +1629,75 @@
                 "name": "MyFormComponent",
                 "coveragePercent": 0,
                 "coverageCount": "0/9",
+                "status": "low"
+            },
+            {
+                "filePath": "apps/nx-storybook-ngzorro/src/app/pages/stepper/Stepper.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "ChangeEvent",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "apps/nx-storybook-ngzorro/src/app/pages/stepper/Stepper.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Decrement",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "apps/nx-storybook-ngzorro/src/app/pages/stepper/Stepper.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "DefaultValue",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "apps/nx-storybook-ngzorro/src/app/pages/stepper/Stepper.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Increment",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "apps/nx-storybook-ngzorro/src/app/pages/stepper/Stepper.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "InitialValue",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "apps/nx-storybook-ngzorro/src/app/pages/stepper/Stepper.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Template",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "apps/nx-storybook-ngzorro/src/app/pages/stepper/stepper.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "StepperComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/5",
                 "status": "low"
             },
             {
