@@ -10,6 +10,7 @@
     "test": "nx test",
     "storybook:nx-storybook-ngzorro": "nx storybook nx-storybook-ngzorro",
     "build-storybook:nx-storybook-ngzorro": "nx build-storybook nx-storybook-ngzorro",
+    "test-storybook": "test-storybook",
     "chromatic": "npx chromatic -b build-storybook:nx-storybook-ngzorro --exit-zero-on-changes"
   },
   "private": true,
