@@ -12,6 +12,10 @@ const config: StorybookConfig = {
     '../src/app/**/*.stories.@(js|jsx|ts|tsx)',
   ],
   addons: [...(rootMain.addons || [])],
+  features: {
+    ...rootMain.features,
+    interactionsDebugger: true,
+  },
   webpackFinal: async (config, { configType }: Options) => {
     // apply any global webpack configs that might have been specified in .storybook/main.ts
     if (rootMain.webpackFinal) {

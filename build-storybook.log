@@ -1,5 +1,5 @@
 
-> nx run nx-storybook-ngzorro:build-storybook --output-dir C:\Users\javie\AppData\Local\Temp\chromatic--16152-zmRW1umtTq9I
+> nx run nx-storybook-ngzorro:build-storybook --output-dir C:\Users\javie\AppData\Local\Temp\chromatic--27728-9p4htg6Mtz60
 
 compodoc -p apps\nx-storybook-ngzorro\.storybook\tsconfig.json -d C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro -e json -d apps/nx-storybook-ngzorro
 [0m
@@ -28,227 +28,242 @@ Node.js version : v16.14.0
 Operating system : Windows 10
 
 
-[11:25:45] 
+[11:47:47] 
 No configuration file found, switching to CLI flags.
 
-[11:25:45] 
+[11:47:47] 
 Using tsconfig file : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\.storybook\tsconfig.json
 
-[11:25:45] Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\jest.config.ts
+[11:47:47] Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\jest.config.ts
 
-[11:25:45] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\.storybook\preview.ts
+[11:47:47] 
+Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\.storybook\main.ts
 
-[11:25:45] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\.storybook\main.ts
+[11:47:47] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\.storybook\preview.ts
 
-[11:25:45] Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\main.ts
-[11:25:45] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\polyfills.ts
+[11:47:47] 
+Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\main.ts
 
-[11:25:45] Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\test-setup.ts
+[11:47:47] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\polyfills.ts
 
-[11:25:45] Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\environments\environment.prod.ts
+[11:47:47] Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\test-setup.ts
 
-[11:25:45] Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\environments\environment.ts
+[11:47:47] Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\app-routing.module.ts
 
-[11:25:45] Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\app-routing.module.ts
-[11:25:45] Ignoring       : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\app.component.spec.ts
+[11:47:47] Ignoring       : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\app.component.spec.ts
 
-[11:25:45] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\app.component.ts
-[11:25:45] Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\app.module.ts
+[11:47:47] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\app.component.ts
 
-[11:25:45] Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\icons-provider.module.ts
+[11:47:47] Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\app.module.ts
 
-[11:25:45] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\nx-welcome.component.ts
+[11:47:47] Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\icons-provider.module.ts
 
-[11:25:45] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\stories\button.component.ts
-[11:25:45] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\stories\header.component.ts
-[11:25:45] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\stories\Header.stories.ts
+[11:47:47] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\nx-welcome.component.ts
 
-[11:25:45] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\stories\page.component.ts
-[11:25:45] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\stories\Page.stories.ts
-[11:25:45] Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\stories\User.ts
-[11:25:45] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\stories\Button.stories.ts
+[11:47:47] Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\environments\environment.prod.ts
 
-[11:25:45] Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\pages\my-form\my-form-routing.module.ts
+[11:47:47] Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\environments\environment.ts
 
-[11:25:45] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\pages\my-form\my-form.component.ts
+[11:47:47] 
+Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\stories\Button.stories.ts
 
-[11:25:45] Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\pages\welcome\welcome-routing.module.ts
-[11:25:45] Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\pages\my-form\my-form.module.ts
+[11:47:47] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\stories\button.component.ts
 
-[11:25:45] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\pages\welcome\welcome.component.ts
-[11:25:45] Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\pages\welcome\welcome.module.ts
-[11:25:45] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\pages\my-form\button-submit\button-submit.component.ts
+[11:47:47] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\stories\header.component.ts
 
-[11:25:45] Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\pages\my-form\button-submit\button-submit.module.ts
-[11:25:45] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\pages\my-form\button-submit\ButtonSubmit.stories.ts
+[11:47:47] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\stories\page.component.ts
+[11:47:47] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\stories\Header.stories.ts
 
-[11:25:45] Searching package.json file
+[11:47:47] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\stories\Page.stories.ts
 
-[11:25:45] package.json file found
+[11:47:47] 
+Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\stories\User.ts
 
-[11:25:45] Processing package.json dependencies
+[11:47:47] Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\pages\my-form\my-form-routing.module.ts
 
-[11:25:45] Searching README.md, CHANGELOG.md, CONTRIBUTING.md, LICENSE.md, TODO.md files
+[11:47:47] 
+Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\pages\my-form\my-form.component.ts
 
-[11:25:45] Error during C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\README read
-[11:25:45] 
-Continuing without README.md file
-[11:25:45] Error during C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\CHANGELOG read
-[11:25:45] Continuing without CHANGELOG.md file
+[11:47:47] 
+Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\pages\my-form\my-form.module.ts
 
-[11:25:45] Error during C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\CONTRIBUTING read
-[11:25:45] Continuing without CONTRIBUTING.md file
+[11:47:47] Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\pages\welcome\welcome-routing.module.ts
 
-[11:25:45] Error during C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\LICENSE read
-[11:25:45] Continuing without LICENSE.md file
+[11:47:47] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\pages\welcome\welcome.component.ts
 
-[11:25:45] Error during C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\TODO read
-[11:25:45] Continuing without TODO.md file
-[11:25:45] Get dependencies data
+[11:47:47] 
+Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\pages\welcome\welcome.module.ts
 
-[11:25:45] 
+[11:47:47] 
+Excluding      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\pages\my-form\button-submit\button-submit.module.ts
+[11:47:47] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\pages\my-form\button-submit\button-submit.component.ts
+
+[11:47:47] Including      : C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\apps\nx-storybook-ngzorro\src\app\pages\my-form\button-submit\ButtonSubmit.stories.ts
+
+[11:47:47] Searching package.json file
+
+[11:47:47] 
+package.json file found
+[11:47:47] Processing package.json dependencies
+
+[11:47:47] 
+Searching README.md, CHANGELOG.md, CONTRIBUTING.md, LICENSE.md, TODO.md files
+
+[11:47:47] Error during C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\README read
+
+[11:47:47] Continuing without README.md file
+
+[11:47:47] Error during C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\CHANGELOG read
+
+[11:47:47] Continuing without CHANGELOG.md file
+
+[11:47:47] Error during C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\CONTRIBUTING read
+
+[11:47:47] Continuing without CONTRIBUTING.md file
+
+[11:47:47] Error during C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\LICENSE read
+[11:47:47] Continuing without LICENSE.md file
+
+[11:47:47] 
+Error during C:\Users\javie\Documents-local\projects\investigo\test-projects\nx-storybook-ngzorro\TODO read
+[11:47:47] Continuing without TODO.md file
+
+[11:47:47] Get dependencies data
+
+[11:47:47] 
 parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/src/polyfills.ts
 
-[11:25:45] parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/.storybook/preview.ts
+[11:47:47] parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/.storybook/main.ts
 
-[11:25:45] 
-parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/.storybook/main.ts
+[11:47:47] found          : config
 
-[11:25:45] found          : config
+[11:47:47] parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/.storybook/preview.ts
 
-[11:25:45] 
-parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/src/app/app.component.ts
+[11:47:47] parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/src/app/app.component.ts
 
-[11:25:45] found          : AppComponent
+[11:47:47] found          : AppComponent
 
-[11:25:45] parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/src/app/nx-welcome.component.ts
+[11:47:47] parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/src/app/nx-welcome.component.ts
 
-[11:25:45] 
-found          : NxWelcomeComponent
-[11:25:45] parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/src/stories/button.component.ts
+[11:47:47] found          : NxWelcomeComponent
 
-[11:25:45] found          : ButtonComponent
+[11:47:47] parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/src/stories/Button.stories.ts
 
-[11:25:45] parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/src/stories/header.component.ts
+[11:47:47] found          : Template
 
-[11:25:45] found          : HeaderComponent
+[11:47:47] found          : Primary
 
-[11:25:45] parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/src/stories/Header.stories.ts
+[11:47:47] found          : Secondary
 
-[11:25:45] found          : Template
+[11:47:47] found          : Large
 
-[11:25:45] found          : LoggedIn
+[11:47:47] found          : Small
 
-[11:25:45] found          : LoggedOut
-[11:25:45] parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/src/stories/page.component.ts
+[11:47:47] parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/src/stories/button.component.ts
 
-[11:25:45] found          : PageComponent
+[11:47:47] found          : ButtonComponent
 
-[11:25:45] parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/src/stories/Page.stories.ts
+[11:47:47] parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/src/stories/header.component.ts
 
-[11:25:45] found          : Template
+[11:47:47] found          : HeaderComponent
 
-[11:25:45] found          : LoggedOut
+[11:47:47] parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/src/stories/page.component.ts
 
-[11:25:45] found          : LoggedIn
+[11:47:47] found          : PageComponent
 
-[11:25:45] parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/src/stories/Button.stories.ts
+[11:47:47] parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/src/stories/Header.stories.ts
 
-[11:25:45] found          : Template
+[11:47:47] found          : Template
+[11:47:47] found          : LoggedIn
+[11:47:47] found          : LoggedOut
+[11:47:47] parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/src/stories/Page.stories.ts
+[11:47:47] found          : Template
+[11:47:47] found          : LoggedOut
+[11:47:47] found          : LoggedIn
+[11:47:47] parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/src/app/pages/my-form/my-form.component.ts
+[11:47:47] found          : MyFormComponent
+[11:47:47] parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/src/app/pages/welcome/welcome.component.ts
 
-[11:25:45] found          : Primary
+[11:47:47] 
+found          : DataItem
 
-[11:25:45] found          : Secondary
-[11:25:45] found          : Large
+[11:47:47] found          : ColumnItem
 
-[11:25:45] found          : Small
-
-[11:25:45] parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/src/app/pages/my-form/my-form.component.ts
-
-[11:25:45] found          : MyFormComponent
-
-[11:25:45] parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/src/app/pages/welcome/welcome.component.ts
-
-[11:25:45] found          : DataItem
-
-[11:25:45] found          : ColumnItem
-
-[11:25:45] 
+[11:47:47] 
 found          : WelcomeComponent
-[11:25:45] parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/src/app/pages/my-form/button-submit/button-submit.component.ts
 
-[11:25:45] found          : ButtonSubmitComponent
+[11:47:47] parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/src/app/pages/my-form/button-submit/button-submit.component.ts
 
-[11:25:45] parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/src/app/pages/my-form/button-submit/ButtonSubmit.stories.ts
+[11:47:47] 
+found          : ButtonSubmitComponent
+[11:47:47] parsing        : C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/src/app/pages/my-form/button-submit/ButtonSubmit.stories.ts
 
-[11:25:45] 
-found          : Template
-[11:25:45] found          : Primary
+[11:47:47] found          : Template
 
-[11:25:45] 
-found          : PrimaryLoading
-[11:25:45] found          : PrimaryDisabled
+[11:47:47] found          : Primary
 
-[11:25:45] 
-found          : Secondary
-[11:25:45] found          : SecondaryLoading
+[11:47:47] found          : PrimaryLoading
 
-[11:25:45] found          : SecondaryDisabled
+[11:47:47] found          : PrimaryDisabled
 
-[11:25:45] found          : Large
+[11:47:47] found          : Secondary
+[11:47:47] 
+found          : SecondaryLoading
+[11:47:47] found          : SecondaryDisabled
 
-[11:25:45] found          : Small
+[11:47:47] found          : Large
 
-[11:25:45] -------------------
+[11:47:47] found          : Small
 
-[11:25:45] Project statistics 
-[11:25:45] - component  : 8
+[11:47:47] -------------------
 
-[11:25:45] - interface  : 2
-[11:25:45] -------------------
+[11:47:47] Project statistics 
+[11:47:47] - component  : 8
 
-[11:25:45] 
-Prepare components
+[11:47:47] - interface  : 2
+[11:47:47] -------------------
 
-[11:25:45]  AppComponent has a templateUrl, include it
+[11:47:47] Prepare components
 
-[11:25:45] 
+[11:47:47]  AppComponent has a templateUrl, include it
+
+[11:47:47] 
  AppComponent has styleUrls, include them
 
-[11:25:45] 
- ButtonComponent has styleUrls, include them
+[11:47:47]  ButtonComponent has styleUrls, include them
 
-[11:25:45]  ButtonSubmitComponent has a templateUrl, include it
+[11:47:47]  ButtonSubmitComponent has a templateUrl, include it
 
-[11:25:45]  ButtonSubmitComponent has styleUrls, include them
+[11:47:47]  ButtonSubmitComponent has styleUrls, include them
 
-[11:25:45]  HeaderComponent has styleUrls, include them
+[11:47:47]  HeaderComponent has styleUrls, include them
 
-[11:25:45]  MyFormComponent has a templateUrl, include it
+[11:47:47]  MyFormComponent has a templateUrl, include it
 
-[11:25:45]  MyFormComponent has styleUrls, include them
+[11:47:47]  MyFormComponent has styleUrls, include them
 
-[11:25:45]  PageComponent has styleUrls, include them
+[11:47:47]  PageComponent has styleUrls, include them
 
-[11:25:45] 
- WelcomeComponent has a templateUrl, include it
-[11:25:45]  WelcomeComponent has styleUrls, include them
+[11:47:47]  WelcomeComponent has a templateUrl, include it
 
-[11:25:45] 
+[11:47:47]  WelcomeComponent has styleUrls, include them
+
+[11:47:47] 
 Prepare modules
 
-[11:25:45] Prepare interfaces
+[11:47:47] Prepare interfaces
 
-[11:25:45] 
+[11:47:47] 
 Prepare miscellaneous
 
-[11:25:45] Process documentation coverage report
+[11:47:47] Process documentation coverage report
 
-[11:25:45] Generating documentation in export format json
+[11:47:47] 
+Generating documentation in export format json
 
-[11:25:45] Documentation generated in apps/nx-storybook-ngzorro/ in 0.402 seconds
+[11:47:47] Documentation generated in apps/nx-storybook-ngzorro/ in 0.569 seconds
 
-info => Cleaning outputDir: C:\Users\javie\AppData\Local\Temp\chromatic--16152-zmRW1umtTq9I
+info => Cleaning outputDir: C:\Users\javie\AppData\Local\Temp\chromatic--27728-9p4htg6Mtz60
 info => Loading presets
 info => Compiling manager..
 info => Compiling preview..
@@ -386,38 +401,44 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 10% building 0/15 entries 2/16 dependencies 0/2 modules
 <s> [webpack.Progress] 10% building import loader ./node_modules/@angular-devkit/build-angular/src/babel/webpack-loader.js
 <s> [webpack.Progress] 10% building import loader ./node_modules/babel-loader/lib/index.js
-<s> [webpack.Progress] 10% building 0/15 entries 11/17 dependencies 0/11 modules
+<s> [webpack.Progress] 10% building 0/15 entries 10/17 dependencies 0/10 modules
+<s> [webpack.Progress] 10% building 0/15 entries 13/17 dependencies 0/12 modules
 <s> [webpack.Progress] 10% building import loader ./node_modules/@ngtools/webpack/src/ivy/index.js
-<s> [webpack.Progress] 10% building 0/15 entries 11/17 dependencies 0/11 modules
-<s> [webpack.Progress] 10% building 0/15 entries 27/52 dependencies 0/25 modules
-<s> [webpack.Progress] 10% building 0/15 entries 31/65 dependencies 1/28 modules
-<s> [webpack.Progress] 13% building 1/15 entries 70/108 dependencies 3/60 modules
+<s> [webpack.Progress] 10% building 0/15 entries 13/17 dependencies 0/13 modules
+<s> [webpack.Progress] 10% building 0/15 entries 21/52 dependencies 0/19 modules
+<s> [webpack.Progress] 10% building 0/15 entries 28/52 dependencies 1/27 modules
+<s> [webpack.Progress] 10% building 0/15 entries 49/107 dependencies 2/46 modules
+<s> [webpack.Progress] 13% building 1/15 entries 71/107 dependencies 4/61 modules
 <s> [webpack.Progress] 13% building import loader ./node_modules/@storybook/source-loader/dist/cjs/index.js
-<s> [webpack.Progress] 13% building 1/15 entries 202/281 dependencies 10/118 modules
-<s> [webpack.Progress] 17% building 2/15 entries 202/281 dependencies 10/118 modules
-<s> [webpack.Progress] 17% building 2/15 entries 263/300 dependencies 12/145 modules
-<s> [webpack.Progress] 21% building 3/15 entries 553/605 dependencies 83/219 modules
-<s> [webpack.Progress] 24% building 4/15 entries 553/605 dependencies 85/219 modules
-<s> [webpack.Progress] 24% building 4/15 entries 783/900 dependencies 120/307 modules
-<s> [webpack.Progress] 24% building 4/15 entries 1400/1526 dependencies 151/410 modules
-<s> [webpack.Progress] 24% building 4/15 entries 1744/2544 dependencies 252/500 modules
-<s> [webpack.Progress] 24% building 4/15 entries 2835/2900 dependencies 331/880 modules
-<s> [webpack.Progress] 24% building 4/15 entries 3688/3700 dependencies 385/994 modules
-<s> [webpack.Progress] 24% building 4/15 entries 4191/4400 dependencies 469/1037 modules
-<s> [webpack.Progress] 24% building 4/15 entries 4961/5000 dependencies 824/1164 modules
-<s> [webpack.Progress] 24% building 4/15 entries 5021/5131 dependencies 900/1164 modules
-<s> [webpack.Progress] 24% building 4/15 entries 5600/5618 dependencies 1080/1309 modules
-<s> [webpack.Progress] 24% building 4/15 entries 6241/6300 dependencies 1314/1456 modules
-<s> [webpack.Progress] 28% building 5/15 entries 6384/6393 dependencies 1356/1476 modules
-<s> [webpack.Progress] 31% building 6/15 entries 6384/6393 dependencies 1356/1476 modules
-<s> [webpack.Progress] 35% building 7/15 entries 6384/6393 dependencies 1356/1476 modules
-<s> [webpack.Progress] 39% building 8/15 entries 6384/6393 dependencies 1356/1476 modules
-<s> [webpack.Progress] 43% building 9/15 entries 6384/6393 dependencies 1356/1476 modules
-<s> [webpack.Progress] 46% building 10/15 entries 6384/6393 dependencies 1356/1476 modules
-<s> [webpack.Progress] 50% building 11/15 entries 6387/6394 dependencies 1379/1476 modules
-<s> [webpack.Progress] 54% building 12/15 entries 6524/6531 dependencies 1446/1495 modules
-<s> [webpack.Progress] 57% building 13/15 entries 6606/6606 dependencies 1498/1517 modules
-<s> [webpack.Progress] 61% building 14/15 entries 6606/6606 dependencies 1498/1517 modules
+<s> [webpack.Progress] 13% building 1/15 entries 197/274 dependencies 10/113 modules
+<s> [webpack.Progress] 17% building 2/15 entries 197/274 dependencies 10/113 modules
+<s> [webpack.Progress] 17% building 2/15 entries 335/392 dependencies 26/146 modules
+<s> [webpack.Progress] 17% building 2/15 entries 518/600 dependencies 79/198 modules
+<s> [webpack.Progress] 17% building 2/15 entries 683/800 dependencies 111/279 modules
+<s> [webpack.Progress] 21% building 3/15 entries 868/917 dependencies 125/318 modules
+<s> [webpack.Progress] 24% building 4/15 entries 868/917 dependencies 127/318 modules
+<s> [webpack.Progress] 24% building 4/15 entries 1277/1391 dependencies 170/400 modules
+<s> [webpack.Progress] 24% building 4/15 entries 1649/1700 dependencies 239/452 modules
+<s> [webpack.Progress] 24% building 4/15 entries 2300/2407 dependencies 265/787 modules
+<s> [webpack.Progress] 24% building 4/15 entries 2900/2954 dependencies 338/899 modules
+<s> [webpack.Progress] 24% building 4/15 entries 3245/3400 dependencies 368/951 modules
+<s> [webpack.Progress] 24% building 4/15 entries 3872/3900 dependencies 395/985 modules
+<s> [webpack.Progress] 24% building 4/15 entries 4400/4485 dependencies 590/1071 modules
+<s> [webpack.Progress] 24% building 4/15 entries 4900/4977 dependencies 859/1128 modules
+<s> [webpack.Progress] 24% building 4/15 entries 4949/5000 dependencies 864/1149 modules
+<s> [webpack.Progress] 24% building 4/15 entries 5600/5644 dependencies 1082/1315 modules
+<s> [webpack.Progress] 24% building 4/15 entries 6080/6100 dependencies 1290/1435 modules
+<s> [webpack.Progress] 24% building 4/15 entries 6341/6400 dependencies 1330/1470 modules
+<s> [webpack.Progress] 28% building 5/15 entries 6410/6414 dependencies 1381/1484 modules
+<s> [webpack.Progress] 32% building 6/15 entries 6410/6414 dependencies 1381/1484 modules
+<s> [webpack.Progress] 35% building 7/15 entries 6410/6414 dependencies 1381/1484 modules
+<s> [webpack.Progress] 39% building 8/15 entries 6410/6414 dependencies 1381/1484 modules
+<s> [webpack.Progress] 43% building 9/15 entries 6410/6414 dependencies 1381/1484 modules
+<s> [webpack.Progress] 46% building 10/15 entries 6410/6414 dependencies 1381/1484 modules
+<s> [webpack.Progress] 50% building 11/15 entries 6415/6419 dependencies 1403/1486 modules
+<s> [webpack.Progress] 54% building 12/15 entries 6575/6576 dependencies 1460/1505 modules
+<s> [webpack.Progress] 57% building 13/15 entries 6602/6602 dependencies 1497/1512 modules
+<s> [webpack.Progress] 61% building 14/15 entries 6612/6612 dependencies 1517/1517 modules
 <s> [webpack.Progress] 64% building 15/15 entries 6612/6612 dependencies 1517/1517 modules
 <s> [webpack.Progress] 65% building
 <s> [webpack.Progress] 69% building finish
@@ -519,13 +540,13 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 92% sealing asset processing copy-webpack-plugin
 <s> [webpack.Progress] 92% sealing asset processing PersistentChildCompilerSingletonPlugin
 <s> [webpack.Progress] 92% sealing asset processing TerserPlugin
-info => Manager built (23 s)
+info => Manager built (44 s)
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.5a9e7d41d1ab8c38543b.css generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.5a9e7d41d1ab8c38543b.css generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.7ccda840.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.7ccda840.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.8202bae2.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.8202bae2.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.a8a88cba.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.a8a88cba.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 747.6eac343a.iframe.bundle.js generate SourceMap
@@ -550,6 +571,306 @@ info => Manager built (23 s)
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 421.1e86afef.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/animal/panda.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/animal/panda.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/account-book.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/account-book.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/alert.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/alert.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/api.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/api.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/appstore.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/appstore.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/audio.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/audio.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/bank.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/bank.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/bell.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/bell.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/book.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/book.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/box-plot.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/box-plot.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/bug.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/bug.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/build.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/build.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/bulb.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/bulb.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/calculator.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/calculator.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/calendar.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/calendar.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/camera.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/camera.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/car.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/car.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/carry-out.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/carry-out.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/check-circle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/check-circle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/check-square.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/check-square.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/ci-circle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/ci-circle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/ci.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/ci.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/clock-circle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/clock-circle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/close-circle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/close-circle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/close-square.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/close-square.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/cloud.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/cloud.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/code.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/code.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/compass.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/compass.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/contacts.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/contacts.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/container.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/container.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/control.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/control.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/copy.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/copy.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/copyright-circle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/copyright-circle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/copyright.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/copyright.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/credit-card.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/credit-card.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/crown.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/crown.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/customer-service.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/customer-service.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/dashboard.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/dashboard.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/database.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/database.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/delete.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/delete.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/diff.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/diff.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/dislike.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/dislike.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/dollar-circle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/dollar-circle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/dollar.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/dollar.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/down-circle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/down-circle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/down-square.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/down-square.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/edit.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/edit.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/environment.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/environment.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/euro-circle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/euro-circle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/euro.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/euro.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/exclamation-circle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/exclamation-circle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/experiment.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/experiment.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/eye-invisible.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/eye-invisible.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/eye.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/eye.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-add.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-add.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-excel.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-excel.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-exclamation.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-exclamation.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-image.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-image.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-markdown.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-markdown.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-pdf.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-pdf.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-ppt.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-ppt.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-text.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-text.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-unknown.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-unknown.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-word.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-word.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-zip.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-zip.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/filter.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/filter.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/fire.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/fire.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/flag.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/flag.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/folder-add.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/folder-add.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/folder-open.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/folder-open.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/folder.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/folder.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/frown.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/frown.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/fund.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/fund.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/funnel-plot.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/funnel-plot.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/gift.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/gift.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/gold.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/gold.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/hdd.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/hdd.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/heart.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/heart.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/highlight.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/highlight.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/home.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/home.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/hourglass.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/hourglass.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/html5.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/html5.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/idcard.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/idcard.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/info-circle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/info-circle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/insurance.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/insurance.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/interaction.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/interaction.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/layout.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/layout.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/left-circle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/left-circle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/left-square.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/left-square.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/like.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/like.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/lock.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/lock.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/mail.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/mail.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/medicine-box.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/medicine-box.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/meh.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/meh.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/message.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/message.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/minus-circle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/minus-circle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/minus-square.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/minus-square.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/mobile.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/mobile.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/money-collect.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/money-collect.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/notification.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/notification.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/pause-circle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/pause-circle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/phone.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/phone.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/picture.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/picture.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/pie-chart.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/pie-chart.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/play-circle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/play-circle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/play-square.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/play-square.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/plus-circle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/plus-circle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/plus-square.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/plus-square.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/pound-circle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/pound-circle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/printer.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/printer.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/profile.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/profile.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/project.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/project.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/property-safety.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/property-safety.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/pushpin.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/pushpin.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/question-circle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/question-circle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/reconciliation.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/reconciliation.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/red-envelope.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/red-envelope.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/rest.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/rest.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/right-circle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/right-circle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/right-square.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/right-square.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/rocket.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/rocket.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/safety-certificate.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/safety-certificate.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/save.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/save.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/schedule.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/schedule.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/security-scan.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/security-scan.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/setting.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/setting.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/shop.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/shop.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/shopping.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/shopping.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/skin.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/skin.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/sliders.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/sliders.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/smile.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/smile.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/snippets.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/snippets.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/sound.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/sound.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/star.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/star.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/stop.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/stop.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/switcher.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/switcher.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/tablet.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/tablet.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/tag.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/tag.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/tags.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/tags.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/thunderbolt.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/thunderbolt.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/tool.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/tool.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/trademark-circle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/trademark-circle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/trophy.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/trophy.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/unlock.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/unlock.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/up-circle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/up-circle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/up-square.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/up-square.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/usb.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/usb.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/video-camera.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/video-camera.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/wallet.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/wallet.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/warning.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/warning.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/fill/account-book.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/fill/account-book.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/fill/alert.js generate SourceMap
@@ -986,306 +1307,6 @@ info => Manager built (23 s)
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/fill/zhihu-circle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/fill/zhihu-square.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/fill/zhihu-square.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/account-book.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/account-book.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/alert.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/alert.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/api.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/api.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/appstore.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/appstore.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/audio.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/audio.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/bank.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/bank.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/bell.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/bell.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/book.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/book.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/box-plot.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/box-plot.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/bug.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/bug.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/build.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/build.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/bulb.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/bulb.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/calculator.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/calculator.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/calendar.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/calendar.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/camera.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/camera.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/car.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/car.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/carry-out.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/carry-out.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/check-circle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/check-circle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/check-square.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/check-square.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/ci-circle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/ci-circle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/ci.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/ci.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/clock-circle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/clock-circle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/close-circle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/close-circle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/close-square.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/close-square.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/cloud.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/cloud.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/code.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/code.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/compass.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/compass.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/contacts.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/contacts.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/container.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/container.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/control.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/control.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/copy.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/copy.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/copyright-circle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/copyright-circle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/copyright.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/copyright.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/credit-card.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/credit-card.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/crown.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/crown.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/customer-service.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/customer-service.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/dashboard.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/dashboard.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/database.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/database.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/delete.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/delete.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/diff.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/diff.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/dislike.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/dislike.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/dollar-circle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/dollar-circle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/dollar.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/dollar.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/down-circle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/down-circle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/down-square.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/down-square.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/edit.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/edit.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/environment.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/environment.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/euro-circle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/euro-circle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/euro.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/euro.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/exclamation-circle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/exclamation-circle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/experiment.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/experiment.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/eye-invisible.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/eye-invisible.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/eye.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/eye.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-add.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-add.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-excel.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-excel.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-exclamation.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-exclamation.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-image.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-image.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-markdown.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-markdown.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-pdf.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-pdf.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-ppt.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-ppt.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-text.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-text.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-unknown.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-unknown.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-word.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-word.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-zip.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file-zip.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/file.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/filter.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/filter.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/fire.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/fire.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/flag.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/flag.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/folder-add.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/folder-add.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/folder-open.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/folder-open.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/folder.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/folder.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/frown.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/frown.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/fund.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/fund.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/funnel-plot.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/funnel-plot.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/gift.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/gift.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/gold.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/gold.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/hdd.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/hdd.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/heart.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/heart.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/highlight.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/highlight.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/home.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/home.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/hourglass.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/hourglass.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/html5.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/html5.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/idcard.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/idcard.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/info-circle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/info-circle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/insurance.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/insurance.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/interaction.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/interaction.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/layout.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/layout.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/left-circle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/left-circle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/left-square.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/left-square.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/like.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/like.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/lock.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/lock.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/mail.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/mail.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/medicine-box.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/medicine-box.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/meh.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/meh.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/message.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/message.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/minus-circle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/minus-circle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/minus-square.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/minus-square.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/mobile.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/mobile.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/money-collect.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/money-collect.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/notification.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/notification.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/pause-circle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/pause-circle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/phone.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/phone.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/picture.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/picture.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/pie-chart.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/pie-chart.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/play-circle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/play-circle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/play-square.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/play-square.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/plus-circle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/plus-circle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/plus-square.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/plus-square.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/pound-circle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/pound-circle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/printer.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/printer.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/profile.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/profile.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/project.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/project.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/property-safety.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/property-safety.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/pushpin.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/pushpin.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/question-circle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/question-circle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/reconciliation.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/reconciliation.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/red-envelope.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/red-envelope.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/rest.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/rest.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/right-circle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/right-circle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/right-square.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/right-square.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/rocket.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/rocket.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/safety-certificate.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/safety-certificate.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/save.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/save.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/schedule.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/schedule.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/security-scan.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/security-scan.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/setting.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/setting.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/shop.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/shop.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/shopping.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/shopping.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/skin.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/skin.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/sliders.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/sliders.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/smile.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/smile.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/snippets.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/snippets.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/sound.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/sound.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/star.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/star.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/stop.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/stop.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/switcher.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/switcher.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/tablet.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/tablet.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/tag.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/tag.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/tags.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/tags.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/thunderbolt.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/thunderbolt.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/tool.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/tool.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/trademark-circle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/trademark-circle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/trophy.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/trophy.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/unlock.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/unlock.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/up-circle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/up-circle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/up-square.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/up-square.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/usb.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/usb.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/video-camera.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/video-camera.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/wallet.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/wallet.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/warning.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/twotone/warning.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/outline/account-book.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/outline/account-book.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin assets/outline/aim.js generate SourceMap
@@ -2143,8 +2164,8 @@ info => Manager built (23 s)
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.cf0a5626505744eedf5e.css generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.cf0a5626505744eedf5e.css generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.23d5bf17.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.23d5bf17.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.a648a0f2.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.a648a0f2.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.38a8186e.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.38a8186e.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 747.98e30f60.iframe.bundle.js generate SourceMap
@@ -2191,7 +2212,7 @@ info => Manager built (23 s)
 <s> [webpack.Progress] 99% cache begin idle
 <s> [webpack.Progress] 100% 
 
-info => Preview built (30 s)
+info => Preview built (52 s)
 WARN C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/.storybook/main.ts is part of the TypeScript compilation but it's unused.
 WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
 WARN C:/Users/javie/Documents-local/projects/investigo/test-projects/nx-storybook-ngzorro/apps/nx-storybook-ngzorro/.storybook/main.ts is part of the TypeScript compilation but it's unused.
@@ -2231,18 +2252,18 @@ WARN   main (3.7 MiB)
 WARN       runtime~main.38a8186e.iframe.bundle.js
 WARN       421.16410e02.iframe.bundle.js
 WARN       main.cf0a5626505744eedf5e.css
-WARN       main.23d5bf17.iframe.bundle.js
+WARN       main.a648a0f2.iframe.bundle.js
 WARN 
 <s> [webpack.Progress] 99% cache shutdown
 <s> [webpack.Progress] 99% cache shutdown
 <s> [webpack.Progress] 100% 
 
-info => Output directory: C:\Users\javie\AppData\Local\Temp\chromatic--16152-zmRW1umtTq9I
+info => Output directory: C:\Users\javie\AppData\Local\Temp\chromatic--27728-9p4htg6Mtz60
 
  
 
  >  NX   Successfully ran target build-storybook for project nx-storybook-ngzorro
 
 
-   View logs and investigate cache misses at https://nx.app/runs/U6pewQYps4
+   View logs and investigate cache misses at https://nx.app/runs/83xdFc0Yb6
 
