@@ -53,11 +53,14 @@ SecondaryDisabled.args = {
 export const Large = Template.bind({});
 Large.args = {
   ...Primary.args,
+  type: 'secondary',
+  text: 'Large Button',
   size: 'large',
 };
 
 export const Small = Template.bind({});
 Small.args = {
   ...Secondary.args,
+  text: 'Small Button',
   size: 'small',
 };
