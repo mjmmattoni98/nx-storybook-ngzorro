@@ -19,7 +19,7 @@ DefaultValue.play = async ({ canvasElement }) => {
 
   const counter = await canvas.findByTestId('counter');
 
-  await expect(counter).toHaveTextContent('0');
+  expect(counter).toHaveTextContent('0');
 };
 
 // Supports an "initial" prop to set the value
@@ -32,7 +32,7 @@ InitialValue.play = async ({ canvasElement }) => {
 
   const counter = await canvas.findByTestId('counter');
 
-  await expect(counter).toHaveTextContent('100');
+  expect(counter).toHaveTextContent('100');
 };
 
 // When the increment button is pressed, the counter is incremented
@@ -43,9 +43,9 @@ Increment.play = async ({ canvasElement }) => {
   const increment = await canvas.findByTestId('increment');
   const counter = await canvas.findByTestId('counter');
 
-  await increment.click();
+  increment.click();
 
-  await expect(counter).toHaveTextContent('1');
+  expect(counter).toHaveTextContent('1');
 };
 
 // When the decrement button is pressed, the counter is decremented
@@ -56,9 +56,9 @@ Decrement.play = async ({ canvasElement }) => {
   const decrement = await canvas.findByTestId('decrement');
   const counter = await canvas.findByTestId('counter');
 
-  await decrement.click();
+  decrement.click();
 
-  await expect(counter).toHaveTextContent('-1');
+  expect(counter).toHaveTextContent('-1');
 };
 
 // Clicking + fires a change event with the incremented value
@@ -69,7 +69,7 @@ ChangeEvent.play = async ({ canvasElement }) => {
   const increment = await canvas.findByTestId('increment');
   const counter = await canvas.findByTestId('counter');
 
-  await increment.click();
+  increment.click();
 
-  await expect(counter).toHaveTextContent('1');
+  expect(counter).toHaveTextContent('1');
 };
