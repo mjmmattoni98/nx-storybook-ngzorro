@@ -1,4 +1,5 @@
 import { TestBed } from '@angular/core/testing';
+import { expect } from '@jest/globals';
 import { AppComponent } from './app.component';
 import { NxWelcomeComponent } from './nx-welcome.component';
 
